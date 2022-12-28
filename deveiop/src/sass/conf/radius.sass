@@ -1,0 +1,32 @@
+
+
+// 配置
+$br_t: 2px
+$br_s: 4.5px
+.br_t
+    border-radius: $br_t
+.br_s
+    border-radius: $br_s
+    
+$br: 11px
+.br
+    border-radius: $br
+    
+@media screen and ( max-width: 782px )
+    $br: 7.5px
+    .br
+        border-radius: $br
+        
+
+.tr,
+input,
+button
+    @extend .br
+
+.ul-pagenation > li
+    @extend .br
+
+.rnd
+    border-radius: 30vw
+.cir
+    border-radius: 100%

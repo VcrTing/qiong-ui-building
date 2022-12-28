@@ -1,0 +1,1 @@
+import{d as s,u as c,r as o,o as i,c as r,w as u,a as t}from"./index.89ddc40c.js";const d=s({__name:"Home",setup(p){return c(),(m,k)=>{const e=o("router-view"),n=o("eos-auto-iogin-tookit"),a=o("eos-tookit-auth"),_=o("LayoutMain");return i(),r(_,null,{cont:u(()=>[t(e),t(n),t(a)]),_:1})}}});export{d as default};
